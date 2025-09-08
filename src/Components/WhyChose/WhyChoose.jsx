@@ -4,7 +4,7 @@ const WhyChoose = () => {
   return (
     <section>
       <div className="container mx-auto  px-4 py-6 ">
-        <div className=" my-24 grid  md:grid-cols-2 lg:grid-cols-4 items-center gap-8 md:text-left ">
+        <div className=" my-24 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 items-center gap-8 md:text-left ">
           <div>
             <h2 className="text-[40px] font-bold">
               Why <br /> Choosing Us

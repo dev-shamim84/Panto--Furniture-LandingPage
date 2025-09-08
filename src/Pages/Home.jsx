@@ -1,11 +1,13 @@
 import Hero from "../Components/Hero/Hero";
+import Products from "../Components/Products/Products";
 import WhyChoose from "../Components/WhyChose/WhyChoose";
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
       <WhyChoose />
-    </div>
+      <Products headline="Best Selling Products" />
+    </>
   );
 };
 

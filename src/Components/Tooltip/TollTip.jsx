@@ -4,7 +4,7 @@ const TollTip = () => {
   return (
     <div className="absolute bottom-[160] left-24 group">
       <button className="relative bg-white/25 p-4 rounded-full border border-1 bg-white mt-3 text-xl ">
-        <div className="absolute bottom-full hidden left-1/2 transform -translate-x-1/2 mb-3 p-2 rounded-lg bg-white/30 shadow-md group-hover:flex transition duration-500 ease-in space-x-2">
+        <div className="absolute bottom-full hidden left-1/2 transform -translate-x-1/2 my-3 p-2 rounded-lg bg-white/30 shadow-md group-hover:flex transition duration-500 ease-in space-x-2">
           <div className="size-6 bg-red-700 border rounded-full border-white"></div>
           <div className="size-6 bg-green-700 border rounded-full border-white"></div>
           <div className="size-6 bg-purple-700 border rounded-full border-white"></div>
