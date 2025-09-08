@@ -1,3 +1,4 @@
+import Exprience from "../Components/Expriencesection/Exprience";
 import Hero from "../Components/Hero/Hero";
 import Products from "../Components/Products/Products";
 import WhyChoose from "../Components/WhyChose/WhyChoose";
@@ -7,6 +8,7 @@ const Home = () => {
       <Hero />
       <WhyChoose />
       <Products headline="Best Selling Products" />
+      <Exprience />
     </>
   );
 };
