@@ -21,7 +21,7 @@ const Metarials = () => {
             </p>
             <ButtonIcon text="More Info" />
           </div>
-          <div className="md:w-1/2 grid grid-cols-2 md:items-end items-center">
+          <div className="md:w-1/2 grid grid-cols-2 gap-4 md:items-end items-center">
             <div>
               <img src={meterialImg1} alt="meterialImg1" />
               <img src={meterialImg2} alt="meterialImg1" />
@@ -30,7 +30,7 @@ const Metarials = () => {
               <img
                 src={meterialImg3}
                 alt="meterialImg3"
-                className="w-full md:h-[450px]"
+                className="md:w-full md:h-[400px]"
               />
             </div>
           </div>
