@@ -1,12 +1,12 @@
 import { HiPlus } from "react-icons/hi";
-import { ImgageUrl } from "../../Utility/Imageurl";
+import { getImageUrl } from "../../Utility/Imageurl.js";
 import Rating from "../Rating/Rating";
 const ProductCard = ({ product }) => {
   const { name, category, price, imageUrl, rating } = product;
   return (
     <div>
       <div className="bg-[#FaFaFa]">
-        <img src={ImgageUrl(`${imageUrl}`)} alt="" />
+        <img src={getImageUrl(`${imageUrl}`)} alt="" />
       </div>
       <div className="p-6 bg-white dark:bg-black shadow-sm">
         <h4 className="text-base mb-2">{category}</h4>
