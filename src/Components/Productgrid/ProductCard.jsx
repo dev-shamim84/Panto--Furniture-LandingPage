@@ -1,8 +1,10 @@
 import { HiPlus } from "react-icons/hi";
 import { getImageUrl } from "../../Utility/Imageurl.js";
 import Rating from "../Rating/Rating";
+import { useOutletContext } from "react-router-dom";
 const ProductCard = ({ product }) => {
   const { name, category, price, imageUrl, rating } = product;
+  const { handleAddToCart } = useOutletContext();
   return (
     <div>
       <div className="bg-[#FaFaFa]">
@@ -17,7 +19,10 @@ const ProductCard = ({ product }) => {
             <sup>$</sup>
             <span className="ml-1">{price}</span>
           </p>
-          <button className="bg-black text-white p-2 rounded-full">
+          <button
+            onClick={() => handleAddToCart(product)}
+            className="bg-black text-white p-2 rounded-full"
+          >
             <HiPlus />
           </button>
         </div>

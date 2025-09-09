@@ -31,7 +31,7 @@ const NavItem = ({ handleToggle }) => {
   );
 };
 
-const Navbar = () => {
+const Navbar = ({ cart }) => {
   const [open, setOpen] = useState(false);
   const [iScroll, setIScroll] = useState(false);
   const handleToggle = () => {
@@ -88,7 +88,7 @@ const Navbar = () => {
           <div className="hidden md:block cursor-pointer relative">
             <FaCartPlus className="text-xl" />
             <sup className="absolute top-0 -right-3 flex justify-center items-center bg-amber-600 text-white w-5 h-5 rounded-full">
-              0
+              {cart.length}
             </sup>
           </div>
         </nav>

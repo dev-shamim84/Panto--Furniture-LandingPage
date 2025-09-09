@@ -2,7 +2,6 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
 import { Link } from "react-router-dom";
-
 const Footer = () => {
   return (
     <footer className="bg-[#F7F7F7] pt-20">
